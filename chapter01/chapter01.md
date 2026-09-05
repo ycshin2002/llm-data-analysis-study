@@ -19,7 +19,7 @@ https://github.com/ycshin2002/llm-data-analysis-study/blob/main/chapter01/chapte
 
 ```text
 여기에 개인 GitHub 저장소의 chapter01/chapter01.md 파일 URL을 입력하세요.
-https://github.com/ycshin2002/llm-data-analysis-study/tree/main/chapter01
+https://github.com/ycshin2002/llm-data-analysis-study/blob/main/chapter01/chapter01.md
 ```
 
 ---
@@ -430,17 +430,16 @@ Python과 Jupyter 환경을 설정하고, 실제 데이터의 결측·중복·�
 - [x] 업무·분석적 의미를 작성했습니다.
 - [x] 한계와 추가 확인 사항을 작성했습니다.
 - [x] 핵심 실행 Evidence 이미지를 첨부했습니다.
-- [] 이미지가 Markdown에서 정상 표시됩니다.
+- [x] 이미지가 Markdown에서 정상 표시됩니다.
 - [x] 개인정보가 없습니다.
 - [x] API Key·Secret·Token이 없습니다.
-- [] 개인 GitHub 저장소에 업로드했습니다.
-- [] GitHub에서 Markdown과 이미지가 정상 표시됩니다.
-- [] 아래 최종 파일 URL이 정상적으로 열립니다.
+- [x] 개인 GitHub 저장소에 업로드했습니다.
+- [x] GitHub에서 Markdown과 이미지가 정상 표시됩니다.
+- [x] 아래 최종 파일 URL이 정상적으로 열립니다.
 
 ### 최종 파일 URL
 
 ```text
-https://github.com/<내-GitHub-ID>/llm-data-analysis-study/blob/main/chapter01/chapter01.md
 https://github.com/ycshin2002/llm-data-analysis-study/blob/main/chapter01/chapter01.md
 ```
 
@@ -456,11 +455,11 @@ https://github.com/ycshin2002/llm-data-analysis-study/blob/main/chapter01/chapte
 ### 내가 가장 중요하게 내린 판단 1개
 
 ```text
-여기에 작성하세요.
+LLM의 제안은 실제 데이터의 컬럼과 계산 기준을 검증한 뒤에만 사용해야 한다고 판단했다.
 ```
 
 ### 아직 확인이 필요한 내용 1개
 
 ```text
-여기에 작성하세요.
+completed 주문의 판매 금액을 계산할 때 주문상세 중복, 환불·할인 처리, unit_price의 의미를 추가로 확인해야 한다.
 ```
