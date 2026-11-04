@@ -1,0 +1,14 @@
+﻿check,status
+raw_unchanged_customers.csv,PASS
+raw_unchanged_order_items.csv,PASS
+raw_unchanged_orders.csv,PASS
+raw_unchanged_products.csv,PASS
+raw_no_missing_or_duplicate_rows,PASS
+category_all_amounts,PASS
+month_all_amounts,PASS
+monthly_unique_orders,PASS
+customer_ranked_amounts,PASS
+public_customer_columns,PASS
+rank_based_labels,PASS
+four_way_total,PASS
+official_validation_all_pass,PASS

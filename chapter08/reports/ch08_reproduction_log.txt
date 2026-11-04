@@ -1,0 +1,42 @@
+[run_midterm_project.py] exit code = 0
+Chapter 08: completed
+
+[Total consistency]
+          source      amount  difference_from_completed  matches_completed status
+completed_source 148990000.0                        0.0               True   PASS
+        category 148990000.0                        0.0               True   PASS
+         monthly 148990000.0                        0.0               True   PASS
+        customer 148990000.0                        0.0               True   PASS
+
+[Final Validation]
+                                 check                value             expected status
+                          pk_integrity             all PASS             all PASS   PASS
+                          fk_integrity                    0                    0   PASS
+                     merge_checks_pass             all PASS             all PASS   PASS
+                line_total_consistency                    0                    0   PASS
+           completed_total_consistency            all match            all match   PASS
+          category_sales_ratio_pct_sum                100.0                100.0   PASS
+completed_rows_with_invalid_order_date                    0                    0   PASS
+          public_customer_columns_safe no forbidden columns no forbidden columns   PASS
+
+All 8 checks: PASS
+Report: C:\Users\신윤철\Documents\llm-data-analysis-study\chapter08\reports\ch08_midterm_report.md
+
+
+[verify_project.py] exit code = 0
+                           check status
+     raw_unchanged_customers.csv   PASS
+   raw_unchanged_order_items.csv   PASS
+        raw_unchanged_orders.csv   PASS
+      raw_unchanged_products.csv   PASS
+raw_no_missing_or_duplicate_rows   PASS
+            category_all_amounts   PASS
+               month_all_amounts   PASS
+           monthly_unique_orders   PASS
+         customer_ranked_amounts   PASS
+         public_customer_columns   PASS
+               rank_based_labels   PASS
+                  four_way_total   PASS
+    official_validation_all_pass   PASS
+Independent checks: 13 PASS; completed total = 148,990,000 KRW
+
