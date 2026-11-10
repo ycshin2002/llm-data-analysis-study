@@ -1,0 +1,5 @@
+﻿check,passed,status
+numeric_median_from_train,True,PASS
+scaler_mean_from_train,True,PASS
+encoder_categories_from_train,True,PASS
+dummy_constant_is_train_target_mean,True,PASS

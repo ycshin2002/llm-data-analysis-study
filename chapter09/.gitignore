@@ -1,0 +1,5 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+# Identifier-bearing diagnostics stay on the local PC, even with git add chapter09.
+reports/*_internal.csv

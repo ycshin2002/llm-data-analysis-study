@@ -1,0 +1,21 @@
+{
+  "source": "https://github.com/GilbertMoon/llm-data-analysis-course",
+  "commit": "6105f42bd8294cb364dde6dcc2fee71c32e14794",
+  "prepared_date": "2026-11-05",
+  "input": "official synthetic common shopping-mall data, not Chapter05 dirty data",
+  "raw_sha256": {
+    "customers.csv": "a442884f1e145b3d7f22be821d2fda6e364a4a99d74ba0f13b877b75e6e90bf1",
+    "order_items.csv": "014f938bc9bf04f6b20b147e191156e187e4a66736b80f9c55ba93891167474a",
+    "orders.csv": "e03bb88543e4430f26c35d22c897dafcbdc844f6e01b9c809d1252b7166365b2",
+    "products.csv": "788c2fe37a335511a157419baf3014a77670df5641be94121c62db6938e01cf0"
+  },
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "nbclient": "0.10.4",
+    "nbformat": "5.10.4"
+  }
+}
